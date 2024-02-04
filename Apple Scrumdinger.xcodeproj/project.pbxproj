@@ -14,6 +14,10 @@
 		1BFE502B2B702A7500414808 /* Apple_ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE502A2B702A7500414808 /* Apple_ScrumdingerTests.swift */; };
 		1BFE50352B702A7600414808 /* Apple_ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE50342B702A7600414808 /* Apple_ScrumdingerUITests.swift */; };
 		1BFE50372B702A7600414808 /* Apple_ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE50362B702A7600414808 /* Apple_ScrumdingerUITestsLaunchTests.swift */; };
+		1BFE50452B7039DB00414808 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE50442B7039DB00414808 /* Theme.swift */; };
+		1BFE50472B703F7800414808 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE50462B703F7800414808 /* DailyScrum.swift */; };
+		1BFE50492B70422000414808 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE50482B70422000414808 /* CardView.swift */; };
+		1BFE504C2B7045C500414808 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE504B2B7045C500414808 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		1BFE50302B702A7500414808 /* Apple ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple ScrumdingerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFE50342B702A7600414808 /* Apple_ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		1BFE50362B702A7600414808 /* Apple_ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BFE50442B7039DB00414808 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1BFE50462B703F7800414808 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		1BFE50482B70422000414808 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1BFE504B2B7045C500414808 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +104,11 @@
 			children = (
 				1BFE50192B702A7400414808 /* Apple_ScrumdingerApp.swift */,
 				1BFE501B2B702A7400414808 /* MeetingView.swift */,
+				1BFE50432B7039BE00414808 /* Models */,
 				1BFE501D2B702A7500414808 /* Assets.xcassets */,
 				1BFE501F2B702A7500414808 /* Preview Content */,
+				1BFE50482B70422000414808 /* CardView.swift */,
+				1BFE504A2B7045AD00414808 /* Style */,
 			);
 			path = "Apple Scrumdinger";
 			sourceTree = "<group>";
@@ -125,6 +136,23 @@
 				1BFE50362B702A7600414808 /* Apple_ScrumdingerUITestsLaunchTests.swift */,
 			);
 			path = "Apple ScrumdingerUITests";
+			sourceTree = "<group>";
+		};
+		1BFE50432B7039BE00414808 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BFE50442B7039DB00414808 /* Theme.swift */,
+				1BFE50462B703F7800414808 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BFE504A2B7045AD00414808 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				1BFE504B2B7045C500414808 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFE50472B703F7800414808 /* DailyScrum.swift in Sources */,
+				1BFE504C2B7045C500414808 /* TrailingIconLabelStyle.swift in Sources */,
+				1BFE50452B7039DB00414808 /* Theme.swift in Sources */,
 				1BFE501C2B702A7400414808 /* MeetingView.swift in Sources */,
 				1BFE501A2B702A7400414808 /* Apple_ScrumdingerApp.swift in Sources */,
+				1BFE50492B70422000414808 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
